@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Saturday, February 11"
+        android:id="@+id/date"
+        android:textSize="40px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Purcell Pavilion at the Joyce Center, Notre Dame, Indiana"
+        android:id="@+id/location"
+        android:textSize="50px"
+        android:layout_below="@+id/date"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Florida State"
+        android:id="@+id/leftTeamName"
+        android:layout_marginTop="55dp"
+        android:layout_below="@+id/location"
+        android:layout_toStartOf="@+id/button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Seminoles"
+        android:id="@+id/leftTeamMascot"
+        android:layout_below="@+id/leftTeamName"
+        android:layout_alignStart="@+id/leftTeamName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="(21-5)"
+        android:id="@+id/leftTeamRecord"
+        android:layout_below="@+id/leftTeamMascot"
+        android:layout_alignStart="@+id/leftTeamMascot" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/leftTeamLogo"
+        android:src="@drawable/fs"
+        android:layout_below="@+id/time"
+        android:layout_toStartOf="@+id/leftTeamName" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rightTeamLogo"
+        android:src="@drawable/lep"
+        android:layout_toEndOf="@+id/rightTeamName"
+        android:layout_alignBottom="@+id/leftTeamLogo"
+        android:layout_below="@+id/time" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Notre Dame"
+        android:id="@+id/rightTeamName"
+        android:layout_above="@+id/leftTeamMascot"
+        android:layout_toEndOf="@+id/finalScore" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Fighting Irish"
+        android:id="@+id/rightTeamMascot"
+        android:layout_below="@+id/rightTeamName"
+        android:layout_alignEnd="@+id/rightTeamName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="(19-7)"
+        android:id="@+id/rightTeamRecord"
+        android:layout_below="@+id/rightTeamMascot"
+        android:layout_alignEnd="@+id/rightTeamMascot" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="72-84"
+        android:id="@+id/finalScore"
+        android:layout_below="@+id/leftTeamRecord"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Final"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/finalScore"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="6:00 PM"
+        android:id="@+id/time"
+        android:layout_alignBaseline="@+id/location"
+        android:layout_alignBottom="@+id/location"
+        android:layout_alignParentEnd="true"
+        android:textSize="40px" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Camera"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tempimage"
+        android:id="@+id/photo_taken"
+        android:layout_marginBottom="30dp"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

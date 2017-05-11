@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+         />
+
+
+    <item android:id="@+id/men"
+    android:icon="@drawable/ic_mens"
+    android:orderInCategory="100"
+    android:title="Mens"
+    app:showAsAction="always"
+    />
+
+<item android:id="@+id/woman"
+    android:icon="@drawable/ic_womans"
+    android:orderInCategory="100"
+    android:title="Womans"
+    app:showAsAction="ifRoom"
+    />
+
+<item android:id="@+id/on"
+    android:icon="@drawable/ic_on"
+    android:orderInCategory="100"
+    android:title="On"
+    app:showAsAction="never"
+    />
+<item android:id="@+id/off"
+    android:icon="@drawable/ic_off"
+    android:orderInCategory="100"
+    android:title="Off"
+    app:showAsAction="never"
+    />
+</LinearLayout>

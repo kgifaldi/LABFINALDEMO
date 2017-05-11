@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CSE60333</string>
+    <string name="school">Notre Dame IN</string>
+    <string name="sport">Basketball 2017</string>
+    <string name="time">6:00 PM</string>
+    <string name="location">Purcell Pavilion at the Joyce Center, Notre Dame, Indiana</string>
+    <string name="mascot">Fighting Irish</string>
+    <string name="record">(19-7)</string>
+
+</resources>

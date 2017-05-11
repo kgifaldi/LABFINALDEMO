@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#333</color>
+    <color name="colorPrimaryDark">#333</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFF</color>
+    <color name="blue">#414a98</color>
+    <color name="yellow">#FF0</color>
+
+    <color name="colorPrimaryMaterial">#888</color>
+    <color name="colorPrimaryDarkMaterial">#FFF</color>
+    <color name="colorAccentMaterial">#FF3F80</color>
+    <color name="textColorPrimaryMaterial">#000</color>
+    <color name="navigationBarColorMaterial">#333</color>
+    <color name="windowBackgroundMaterial">#0FF</color>
+
+
+    <color name="colorBackground">#232</color>
+    <color name="textColorPrimary">#555</color>
+    <color name="textColorSecondary">#856</color>
+
+
+
+</resources>

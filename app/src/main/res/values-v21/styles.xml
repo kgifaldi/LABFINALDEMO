@@ -1,0 +1,14 @@
+
+
+<resources>
+
+    <style name="MyMaterialTheme" parent="SuperMaterialTheme">
+        <item name="colorPrimary">@color/colorPrimaryMaterial</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkMaterial</item>
+        <item name="colorAccent">@color/colorAccentMaterial</item>
+        <item name="elevation">4dp</item>
+
+    </style>
+
+</resources>
+

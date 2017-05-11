@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.app" >
+
+    <item android:id="@+id/action_settings"
+        android:title="action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <include android:id="@+id/toolbar"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+         />
+
+<item android:id="@+id/share"
+    android:icon="@drawable/ic_share"
+    android:orderInCategory="100"
+    android:title="Share"
+    app:showAsAction="always"
+/>
+
+<item android:id="@+id/sync"
+    android:icon="@drawable/ic_sync"
+    android:orderInCategory="100"
+    android:title="Sync"
+    app:showAsAction="ifRoom"
+/>
+
+<item android:id="@+id/settings"
+    android:icon="@drawable/ic_settings"
+    android:orderInCategory="100"
+    android:title="Settings"
+    app:showAsAction="never"
+/>
+
+</LinearLayout>
+
+</menu>
